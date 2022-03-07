@@ -1,0 +1,26 @@
+
+
+public class Addsub{
+
+    public static void main(String args[])
+
+ {
+
+    int num1=23; // numbers to add
+    int num2=24;
+    int first, second, add, subtract, multiply; // operations to done
+    float devide;
+ 
+
+
+    add = num1 + num2;   
+    subtract = num1 - num2;
+    multiply = num1 * num2;
+    devide =  num1 / num2;
+
+    System.out.println("Sum = " + add);
+    System.out.println("Difference = " + subtract);
+    System.out.println("Multiplication = " + multiply);   // output
+    System.out.println("Division = " + devide);
+  }
+}
